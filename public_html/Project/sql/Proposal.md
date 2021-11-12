@@ -1,5 +1,9 @@
 # Project Name: Simple Arcade
+<<<<<<< HEAD
 ## Project Summary: This project will create a simple Arcade with scoreboards and competitions based on the implemented game.
+=======
+## Project Summary: This project will create a Simple Arcade with scoreboards and competitions based on the implemented game.
+>>>>>>> b56f5c612d5de9ea3208b7d3f704afe556e63dad
 ## Github Link: (Prod Branch of Project Folder)
 ## Project Board Link: 
 ## Website Link: (Heroku Prod of Project folder)
