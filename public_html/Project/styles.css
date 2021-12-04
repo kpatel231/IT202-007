@@ -1,23 +1,23 @@
-.alert-success {
-    background-color: green
-}
-
-.alert-warning {
-    background-color: blue;
-}
-
-.alert-danger {
-    background-color: red;
-}
-
-.alert-info {
-    background-color: teal;
+body{
+    color: black;
+    background-color: dimgray;
 }
 nav li{display: inline; background-color: rosybrown;}
 nav li a{color: dimgrey}
-input{border-radius: 50%;}
-body{
-    background-color: dimgrey;
-    color: whitesmoke;
 
+.btn-primary{
+    background-color: var(--bs-orange);
+    border: 1px solid black;
+    color: black;
+}
+canvas{
+    background-color: white;
+}
+label{
+    text-transform: capitalize;
+}
+
+.scroll-content{
+    height: 70vh;
+    overflow: auto;
 }

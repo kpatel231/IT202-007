@@ -177,7 +177,7 @@
 - Milestone 2
 - [ ] (mm/dd/yyyy of completion) User with an admin role or shop owner role will be able to add products to inventory
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Status: Completed
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
@@ -186,7 +186,7 @@
         - Screenshot #1 description explaining what you're trying to show
 - [ ] (mm/dd/yyyy of completion) Any user will be able to see products with visibility = true on the Shop page
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Status: Completed
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
