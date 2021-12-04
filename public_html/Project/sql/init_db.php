@@ -110,5 +110,5 @@ try {
     $db = null;
 } catch (Exception $e) {
     echo $e->getMessage();
-    exit("Something went wrong");
+    exit("Something went wrong"); 
 }
