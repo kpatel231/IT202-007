@@ -6,7 +6,7 @@ $db = getDB();
 //Sort and Filters
 $col = se($_GET, "col", "cost", false);
 //allowed list
-if (!in_array($col, ["cost", "stock", "name", "created"])) {
+if (!in_array($col, ["cost", "stock", "name", "created", "category",])) {
     $col = "cost"; //default value, prevent sql injection
 }
 $order = se($_GET, "order", "asc", false);
@@ -16,8 +16,9 @@ if (!in_array($order, ["asc", "desc"])) {
 }
 $name = se($_GET, "name", "", false);
 
+
 //split query into data and total
-$base_query = "SELECT id, name, description, cost, stock, image FROM Products items";
+$base_query = "SELECT id, name, description, cost, category, stock, image FROM Products items";
 $total_query = "SELECT count(1) as total FROM Products items";
 //dynamic query
 $query = " WHERE 1=1"; //1=1 shortcut to conditionally build AND clauses
@@ -30,6 +31,9 @@ if (!empty($name)) {
 //apply column and order sort
 if (!empty($col) && !empty($order)) {
     $query .= " ORDER BY $col $order"; //be sure you trust these values, I validate via the in_array checks above
+}
+if (!empty($category)) {
+    $query .= " AND category like :category";
 }
 //paginate function
 $per_page = 5;
@@ -162,6 +166,7 @@ try {
                     <option value="stock">Stock</option>
                     <option value="name">Name</option>
                     <option value="created">Created</option>
+                    <option value="category">Category</option>
                 </select>
                 <script>
                     //quick fix to ensure proper value is selected since
@@ -208,7 +213,8 @@ try {
                             <input type="hidden" name="item_id" value="<?php se($item, 'id'); ?>" />
                             <input type="hidden" name="cost" value="<?php se($item, 'cost'); ?>" />
                             <input type="hidden" name="quantity" value="1" />
-                            <input type="submit" value="Edit" />
+                            <a href="edit_item.php?id=<?php se($record, "id"); ?>">Edit</a>
+                            <a href="product_detail.php?id=<?php se($record, "id"); ?>">About</a>
                         </form>
                     </div>
                 </div>
