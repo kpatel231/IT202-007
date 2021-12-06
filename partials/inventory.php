@@ -5,7 +5,7 @@ if (!isset($user_id)) {
     $user_id = get_user_id();
 }
 error_log("inventory");
-$stmt = $db->prepare("SELECT i.id, name, image, quantity FROM Cart inv JOIN Products i on inv.item_id = i.id WHERE inv.user_id = :uid and quantity > 0");
+$stmt = $db->prepare("SELECT i.id, name, image, quantity, category FROM Cart inv JOIN Products i on inv.item_id = i.id WHERE inv.user_id = :uid and quantity > 0");
 try {
     $stmt->execute([":uid" => $user_id]);
     $r = $stmt->fetchAll(PDO::FETCH_ASSOC);
