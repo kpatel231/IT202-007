@@ -210,7 +210,7 @@
  [https://github.com/kpatel231/IT202-007/pull/47](https://github.com/kpatel231/IT202-007/pull/47)</p></td></tr><tr><td><table><tr><td>F7 - Cart will be table-based (id, product_id, user_id, desired_quantity, unit_cost, created, modified)<tr><td>Status: completed</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144787478-3d180b4c-5e9b-4a3b-ac69-db51a82c1553.png"><p>cart table</td></tr></td></tr></table></td></tr><tr><td><table><tr><td>F7 - Adding items to Cart will not affect the Product's quantity in the Products table<tr><td>Status: completed</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144787836-0736bfd3-5499-4cf0-8ef2-bd6c448dc200.png"><p>Showing adding items to Cart will not affect the Product's quantity in the Products table</td></tr></td></tr></table></td></tr></td></tr></table>
 - [ ] (mm/dd/yyyy of completion) User will be able to change quantity of items in their cart
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Status: Incomplete (Completed, Partially working, Incomplete, Pending)
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
