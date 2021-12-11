@@ -253,8 +253,8 @@ function add_item($item_id, $user_id, $quantity, $cost)
         return;
     }
     $db = getDB();
-    $stmt = $db->prepare("INSERT INTO Cart (item_id, user_id, quantity, unit_cost) VALUES (:iid, :uid, :q, :uc) ON DUPLICATE KEY UPDATE quantity = quantity + :q");
-    $stmt = $db->prepare("INSERT INTO Cart (item_id, user_id, quantity, unit_cost) VALUES (:iid, :uid, :q, :uc) ON DUPLICATE KEY UPDATE unit_cost = :uc");
+    $stmt = $db->prepare("INSERT INTO Cart (item_id, user_id, quantity, unit_price) VALUES (:iid, :uid, :q, :uc) ON DUPLICATE KEY UPDATE quantity = quantity + :q");
+    $stmt = $db->prepare("INSERT INTO Cart (item_id, user_id, quantity, unit_price) VALUES (:iid, :uid, :q, :uc) ON DUPLICATE KEY UPDATE unit_price = :uc");
     try {
         $stmt->execute([":iid" => $item_id, ":uid" => $user_id, ":q" => $quantity, ":uc" => $cost]);
         return true;

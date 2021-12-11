@@ -18,8 +18,8 @@ $name = se($_GET, "name", "", false);
 
 
 //split query into data and total
-$base_query = "SELECT id, name, description, cost, category, stock, image FROM Products items";
-$total_query = "SELECT count(1) as total FROM Products items";
+$base_query = "SELECT id, name, description, cost, category, stock, image FROM Products";
+$total_query = "SELECT count(1) as total FROM Products ";
 //dynamic query
 $query = " WHERE 1=1"; //1=1 shortcut to conditionally build AND clauses
 $params = []; //define default params, add keys as needed and pass to execute
@@ -213,8 +213,9 @@ try {
                             <input type="hidden" name="item_id" value="<?php se($item, 'id'); ?>" />
                             <input type="hidden" name="cost" value="<?php se($item, 'cost'); ?>" />
                             <input type="hidden" name="quantity" value="1" />
-                            <a href="edit_item.php?id=<?php se($record, "id"); ?>">Edit</a>
-                            <a href="product_detail.php?id=<?php se($record, "id"); ?>">About</a>
+
+                            <a href="edit_item.php?id=<?php se($r, "id") ?>"> <?php se($r, "id")?>Edit</a>
+                            <a href="product_detail.php?id=<?php se($r, "id") ?>"> <?php se($r, "id")?>About</a>
                         </form>
                     </div>
                 </div>

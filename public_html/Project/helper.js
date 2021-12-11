@@ -26,7 +26,7 @@ function flash(message = "", color = "info") {
  * to update all the show-balance elements on the page w/o a page refresh
  */
 function refreshBalance () {
-    fetch("api/get_balance.php", {
+    fetch("api/purchase.item.php", {
         method: "POST",
         headers: {
             "Content-type": "application/x-www-form-urlencoded",

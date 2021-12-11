@@ -175,66 +175,462 @@
         Screenshot #20 Password is Invalid when user trying to change password.
 
 - Milestone 2
-<table><tr><td>Milestone 2</td></tr><tr><td><table><tr><td>F1 - User with an admin role or shop owner role will be able to add products to inventory (2021-12-03)</td></tr><tr><td>Status: complete</td></tr><tr><td>Links:<p>
+
+<table>
+<tr><td>Milestone 2</td></tr><tr><td>
+<table>
+<tr><td>F1 - User with an admin role or shop owner role will be able to add products to inventory (2021-12-03)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
 
  [https://ksp9-prod.herokuapp.com/Project/shop.php](https://ksp9-prod.herokuapp.com/Project/shop.php)</p><p>
 
- [https://ksp9-prod.herokuapp.com/Project/admin/edit_item.php](https://ksp9-prod.herokuapp.com/Project/admin/edit_item.php)</p></td></tr><tr><td>PRs:<p>
+ [https://ksp9-prod.herokuapp.com/Project/admin/edit_item.php](https://ksp9-prod.herokuapp.com/Project/admin/edit_item.php)</p></td></tr>
+<tr><td>PRs:<p>
 
- [https://github.com/kpatel231/IT202-007/pull/47](https://github.com/kpatel231/IT202-007/pull/47)</p></td></tr><tr><td><table><tr><td>F1 - Table should be called Products (id, name, description, category, stock, created, modified, unit_price, visibility [true, false])<tr><td>Status: completed</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144781911-5bead0a9-032f-44df-b6e1-07845ef98bc9.png"><p>This is the products table in which the admin adds items to the shop.</td></tr></td></tr></table></td></tr><table><tr><td>F2 - Any user will be able to see products with visibility = true on the Shop page (2021-12-03)</td></tr><tr><td>Status: complete</td></tr><tr><td>Links:<p>
+ [https://github.com/kpatel231/IT202-007/pull/56](https://github.com/kpatel231/IT202-007/pull/56)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F1 - Table should be called Products (id, name, description, category, stock, created, modified, unit_price, visibility [true, false])</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
 
- [https://ksp9-prod.herokuapp.com/Project/shop.php](https://ksp9-prod.herokuapp.com/Project/shop.php)</p></td></tr><tr><td>PRs:<p>
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144781911-5bead0a9-032f-44df-b6e1-07845ef98bc9.png">
+<p>This is the products table in which the admin adds items to the shop.</p>
+</td></tr>
 
- [https://github.com/kpatel231/IT202-007/pull/47](https://github.com/kpatel231/IT202-007/pull/47)</p></td></tr><tr><td><table><tr><td>F2 - Product list page will be public (i.e. doesn’t require login)<tr><td>Status: completed</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144782490-ff21586b-99a7-4b1e-a1f6-9b3933c62a8c.png"><p>Any User can see the shop page with or without login</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144783695-3125dd25-e195-46eb-8a12-44a554937fef.png"><p>Product detail page is public </td></tr></td></tr></table></td></tr><tr><td><table><tr><td>F2 - For now limit results to 10 most recent<tr><td>Status: completed</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144782706-f55e4246-25a3-4b3f-9027-09f8e6f79263.png"><p>First ten items on shop page</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144782789-aa1d110f-d05b-42a6-bdb3-3489bb6b753b.png"><p>First ten items on shop page</td></tr></td></tr></table></td></tr><tr><td><table><tr><td>F2 - User will be able to filter results by category<tr><td>Status: completed</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144783025-027130aa-02d3-434f-9d8d-7484b86ade82.png"><p>Filter results by Categories</td></tr></td></tr></table></td></tr><tr><td><table><tr><td>F2 - User will be able to filter results by partial matches on the name<tr><td>Status: completed</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144783300-9fb73304-8a62-46b3-abb8-dead51400667.png"><p>Searching for Products using partial match</td></tr></td></tr></table></td></tr><tr><td><table><tr><td>F2 - User will be able to sort results by price<tr><td>Status: completed</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144783845-12653b17-cabe-4030-92ba-e803f1df7f7e.png"><p>sorting products by price</td></tr></td></tr></table></td></tr><table><tr><td>F3 - Admin/Shop owner will be able to see products with any visibility (2021-12-03)</td></tr><tr><td>Status: complete</td></tr><tr><td>Links:<p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F2 - Any user will be able to see products with visibility = true on the Shop page (2021-12-03)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/shop.php](https://ksp9-prod.herokuapp.com/Project/shop.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/56](https://github.com/kpatel231/IT202-007/pull/56)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F2 - Product list page will be public (i.e. doesn’t require login)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144782490-ff21586b-99a7-4b1e-a1f6-9b3933c62a8c.png">
+<p>Any User can see the shop page with or without login</p>
+</td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144783695-3125dd25-e195-46eb-8a12-44a554937fef.png">
+<p>Product detail page is public </p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F2 - For now limit results to 10 most recent</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144782706-f55e4246-25a3-4b3f-9027-09f8e6f79263.png">
+<p>First ten items on shop page</p>
+</td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144782789-aa1d110f-d05b-42a6-bdb3-3489bb6b753b.png">
+<p>First ten items on shop page</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F2 - User will be able to filter results by category</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144783025-027130aa-02d3-434f-9d8d-7484b86ade82.png">
+<p>Filter results by Categories</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F2 - User will be able to filter results by partial matches on the name</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144783300-9fb73304-8a62-46b3-abb8-dead51400667.png">
+<p>Searching for Products using partial match</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F2 - User will be able to sort results by price</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144783845-12653b17-cabe-4030-92ba-e803f1df7f7e.png">
+<p>sorting products by price</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F3 - Admin/Shop owner will be able to see products with any visibility (2021-12-03)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
 
  [https://ksp9-prod.herokuapp.com/Project/shop.php](https://ksp9-prod.herokuapp.com/Project/shop.php)</p><p>
 
- [https://ksp9-prod.herokuapp.com/Project/admin/list_items.php](https://ksp9-prod.herokuapp.com/Project/admin/list_items.php)</p></td></tr><tr><td>PRs:<p>
+ [https://ksp9-prod.herokuapp.com/Project/admin/list_items.php](https://ksp9-prod.herokuapp.com/Project/admin/list_items.php)</p></td></tr>
+<tr><td>PRs:<p>
 
- [https://github.com/kpatel231/IT202-007/pull/47](https://github.com/kpatel231/IT202-007/pull/47)</p></td></tr><tr><td><table><tr><td>F3 - This should be a separate page from Shop, but will be similar<tr><td>Status: completed</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144784383-1ebf0147-2fd7-4a28-9bd4-07ce4e42a67b.png"><p>Table for product </td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144784361-bc15edd1-5bf2-41d0-8d3a-54e918a944e4.png"><p>Products that is only visible to admin only</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144785570-5cfb979f-59ac-4c17-8c03-c5b6268569b8.png"><p>Admin only has access to list item page</td></tr></td></tr></table></td></tr><tr><td><table><tr><td>F3 - This page should only be accessible to the appropriate role(s)<tr><td>Status: completed</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144784660-4d6643d1-65ca-42f5-aece-ae143f986fb5.png"><p>Admin can only see all products</td></tr></td></tr></table></td></tr><table><tr><td>F4 - Admin/Shop owner will be able to edit any product (2021-12-03)</td></tr><tr><td>Status: complete</td></tr><tr><td>Links:<p>
+ [https://github.com/kpatel231/IT202-007/pull/56](https://github.com/kpatel231/IT202-007/pull/56)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F3 - This should be a separate page from Shop, but will be similar</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
 
- [https://ksp9-prod.herokuapp.com/Project/admin/edit_item.php?id=4](https://ksp9-prod.herokuapp.com/Project/admin/edit_item.php?id=4)</p></td></tr><tr><td>PRs:<p>
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144784383-1ebf0147-2fd7-4a28-9bd4-07ce4e42a67b.png">
+<p>Table for product </p>
+</td></tr>
 
- [https://github.com/kpatel231/IT202-007/pull/47](https://github.com/kpatel231/IT202-007/pull/47)</p></td></tr><tr><td><table><tr><td>F4 - Edit button should be accessible for the appropriate role(s) anywhere a product is shown (Shop list, Product Details Page, etc)<tr><td>Status: completed</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144785346-53a775e6-861d-4973-b447-bf38d676fe1c.png"><p>Edit button on the shop page</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144785312-fde4127e-280e-49bc-9b8d-d6b2d4944b38.png"><p>Editing the product</td></tr></td></tr></table></td></tr><table><tr><td>F5 - User will be able to click an item from a list and view a full page with more info about the item (Product Details Page) (2021-12-03)</td></tr><tr><td>Status: complete</td></tr><tr><td>Links:<p>
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144784361-bc15edd1-5bf2-41d0-8d3a-54e918a944e4.png">
+<p>Products that is only visible to admin only</p>
+</td></tr>
 
- [https://ksp9-prod.herokuapp.com/Project/product_detail.php?id=2](https://ksp9-prod.herokuapp.com/Project/product_detail.php?id=2)</p></td></tr><tr><td>PRs:<p>
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144785570-5cfb979f-59ac-4c17-8c03-c5b6268569b8.png">
+<p>Admin only has access to list item page</p>
+</td></tr>
 
- [https://github.com/kpatel231/IT202-007/pull/47](https://github.com/kpatel231/IT202-007/pull/47)</p></td></tr><tr><td><table><tr><td>F5 - User will be able to click an item from a list and view a full page with more info about the item (Product Details Page)<tr><td>Status: completed</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144786250-6b70acfd-2e94-4e21-886d-f2f185679917.png"><p>More information about product by clicking on the about button</td></tr></td></tr></table></td></tr><table><tr><td>F6 - User must be logged in for any Cart related activity below (2021-12-03)</td></tr><tr><td>Status: complete</td></tr><tr><td>Links:<p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F3 - This page should only be accessible to the appropriate role(s)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
 
- [https://ksp9-prod.herokuapp.com/Project/shop.php](https://ksp9-prod.herokuapp.com/Project/shop.php)</p></td></tr><tr><td>PRs:<p>
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144784660-4d6643d1-65ca-42f5-aece-ae143f986fb5.png">
+<p>Admin can only see all products</p>
+</td></tr>
 
- [https://github.com/kpatel231/IT202-007/pull/47](https://github.com/kpatel231/IT202-007/pull/47)</p></td></tr><tr><td><table><tr><td>F6 - User must be logged in for any Cart related activity below<tr><td>Status: completed</td></tr><tr><td><img width="600px" src=""><p></td></tr></td></tr></table></td></tr><table><tr><td>F7 - User will be able to add items to Cart  (2021-12-03)</td></tr><tr><td>Status: complete</td></tr><tr><td>Links:<p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F4 - Admin/Shop owner will be able to edit any product (2021-12-03)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
 
- [https://ksp9-prod.herokuapp.com/Project/cart.php](https://ksp9-prod.herokuapp.com/Project/cart.php)</p></td></tr><tr><td>PRs:<p>
+ [https://ksp9-prod.herokuapp.com/Project/admin/edit_item.php?id=4](https://ksp9-prod.herokuapp.com/Project/admin/edit_item.php?id=4)</p></td></tr>
+<tr><td>PRs:<p>
 
- [https://github.com/kpatel231/IT202-007/pull/47](https://github.com/kpatel231/IT202-007/pull/47)</p></td></tr><tr><td><table><tr><td>F7 - Cart will be table-based (id, product_id, user_id, desired_quantity, unit_cost, created, modified)<tr><td>Status: completed</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144787478-3d180b4c-5e9b-4a3b-ac69-db51a82c1553.png"><p>cart table</td></tr></td></tr></table></td></tr><tr><td><table><tr><td>F7 - Adding items to Cart will not affect the Product's quantity in the Products table<tr><td>Status: completed</td></tr><tr><td><img width="600px" src="https://user-images.githubusercontent.com/90267439/144787836-0736bfd3-5499-4cf0-8ef2-bd6c448dc200.png"><p>Showing adding items to Cart will not affect the Product's quantity in the Products table</td></tr></td></tr></table></td></tr></td></tr></table>
-- [ ] (mm/dd/yyyy of completion) User will be able to change quantity of items in their cart
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-- [ ] (mm/dd/yyyy of completion) User will be able to remove a single item from their cart via button click
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-  - [ ] (mm/dd/yyyy of completion) User will be able to clear their entire cart via a button click
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
+ [https://github.com/kpatel231/IT202-007/pull/56](https://github.com/kpatel231/IT202-007/pull/56)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F4 - Edit button should be accessible for the appropriate role(s) anywhere a product is shown (Shop list, Product Details Page, etc)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144785346-53a775e6-861d-4973-b447-bf38d676fe1c.png">
+<p>Edit button on the shop page</p>
+</td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144785312-fde4127e-280e-49bc-9b8d-d6b2d4944b38.png">
+<p>Editing the product</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F5 - User will be able to click an item from a list and view a full page with more info about the item (Product Details Page) (2021-12-03)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/product_detail.php?id=2](https://ksp9-prod.herokuapp.com/Project/product_detail.php?id=2)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/56](https://github.com/kpatel231/IT202-007/pull/56)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F5 - User will be able to click an item from a list and view a full page with more info about the item (Product Details Page)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144786250-6b70acfd-2e94-4e21-886d-f2f185679917.png">
+<p>More information about product by clicking on the about button</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F6 - User must be logged in for any Cart related activity below (2021-12-03)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/shop.php](https://ksp9-prod.herokuapp.com/Project/shop.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/56](https://github.com/kpatel231/IT202-007/pull/56)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F6 - User must be logged in for any Cart related activity below</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/145664734-1df11672-fd1f-4d2d-810e-6511478c9f37.png">
+<p>User got to login to add to cart</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F7 - User will be able to add items to Cart  (2021-12-03)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/cart.php](https://ksp9-prod.herokuapp.com/Project/cart.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/56](https://github.com/kpatel231/IT202-007/pull/56)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F7 - Cart will be table-based (id, product_id, user_id, desired_quantity, unit_cost, created, modified)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144787478-3d180b4c-5e9b-4a3b-ac69-db51a82c1553.png">
+<p>cart table</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F7 - Adding items to Cart will not affect the Product's quantity in the Products table</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/144787836-0736bfd3-5499-4cf0-8ef2-bd6c448dc200.png">
+<p>Showing adding items to Cart will not affect the Product's quantity in the Products table</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F8 - User will be able to see their cart (2021-12-03)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/cart.php](https://ksp9-prod.herokuapp.com/Project/cart.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/56](https://github.com/kpatel231/IT202-007/pull/56)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F8 - List all the items</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/145665094-111e34c6-c69b-4c59-9275-96874c44853d.png">
+<p>Showing products on cart</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F8 - Show subtotal for each line item based on desired_quantity * unit_cost</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/145665094-111e34c6-c69b-4c59-9275-96874c44853d.png">
+<p>Showing subtotal on cart</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F8 - Show total cart value (sum of line item subtotals)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/145665310-a7805950-6354-4e87-bbc3-aedd6025d59f.png">
+<p>Show total cart value</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F8 - Will be able to click an item to see more details (Product Details Page)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/145665347-c69f85fd-78dc-4bb6-9291-42e9f6189e59.png">
+<p>Click item to see more detail in the cart</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F9 - ser will be able to change quantity of items in their cart (2021-12-03)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/cart.php](https://ksp9-prod.herokuapp.com/Project/cart.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/56](https://github.com/kpatel231/IT202-007/pull/56)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F9 - Quantity of 0 should also remove from cart</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/145665414-13bff100-b928-4845-8a5d-02cfc9442cd5.png">
+<p>Showing quantity updated</p>
+</td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/145665448-408f1b44-85b2-4e9c-8852-a6b638415f7a.png">
+<p>Showing quantity is 0 the product is removed</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F10 - User will be able to remove a single item from their cart via button click (2021-12-03)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/cart.php](https://ksp9-prod.herokuapp.com/Project/cart.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/56](https://github.com/kpatel231/IT202-007/pull/56)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F10 - User will be able to remove a single item from their cart via button click</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/145665875-d4ebc840-8460-4e04-a650-0a7c66b703d8.png">
+<p>Item removed from cart</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F11 - User will be able to clear their entire cart via a button click (2021-12-03)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/cart.php](https://ksp9-prod.herokuapp.com/Project/cart.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/56](https://github.com/kpatel231/IT202-007/pull/56)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F11 - User will be able to clear their entire cart via a button click</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/145665968-9844d283-0946-479a-acf3-5af0e9847f0a.png">
+<p>Cleared Products from Cart</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr></td></tr></table>
 - Milestone 3
 - [ ] (mm/dd/yyyy of completion) User will be able to purchase items in their Cart
   -  List of Evidence of Feature Completion
