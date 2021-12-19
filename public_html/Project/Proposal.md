@@ -632,15 +632,84 @@
 </td>
 </tr></td></tr></table>
 - Milestone 3
-- [ ] (mm/dd/yyyy of completion) User will be able to purchase items in their Cart
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
+
+<table>
+<tr><td>Milestone 3</td></tr><tr><td>
+<table>
+<tr><td>F1 - User will be able to purchase items in their Cart (2021-12-10)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/cart.php](https://ksp9-prod.herokuapp.com/Project/cart.php)</p><p>
+
+ [https://ksp9-prod.herokuapp.com/Project/checkout.php](https://ksp9-prod.herokuapp.com/Project/checkout.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/57](https://github.com/kpatel231/IT202-007/pull/57)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F1 - Create an Orders table (id, user_id, created, total_price, address, payment_method)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/146663504-7749fa95-9957-45d3-a2c1-d73c943156eb.png">
+<p>Shows the order tables</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F1 - Create an OrderItems table (id, order_id, product_id, quantity, unit_price)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/146663593-96b23615-9f7e-41e1-b743-7eb0aec5696f.png">
+<p>Shows the OrderItems tables</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F1 - Checkout Form</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/146664100-e87a1b2c-605c-4f97-a073-ec8b1a740c73.png">
+<p>Checkout form which asks for user payment method</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F1 - User will be asked for their Address for shipping purposes</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/146664129-7b8f08c2-7649-47d0-b149-3cd8c84ed672.png">
+<p>User will be asked for their Address for shipping purposes</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr></td></tr></table>
 - [ ] (mm/dd/yyyy of completion) Order Confirmation Page
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)

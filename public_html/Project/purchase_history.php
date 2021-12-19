@@ -67,7 +67,7 @@ try {
 //store triggered items in a new table (so it persists between page loads and logouts)
 ?>
 <div class="container-fluid">
-   <h5>Cart</h5>
+   <h5>Purchase History<h5>
    <?php global $cart_total;?>
     <div class="list-group">
         <?php if($results && count($results) > 0):?>
@@ -151,12 +151,9 @@ try {
 
             </div>
         <?php else:?>
-        <div class="list-group-item">
-            No items in cart
-        </div>
         <?php endif;?>
         </div>
-        <button class="btn btn-primary btn-lg btn-block" type="submit" name="submit" value="submit"><a href="<?php echo get_url('checkout.php'); ?>">Checkout</a></li></button>
+        
     </div>
     <?php 
     
