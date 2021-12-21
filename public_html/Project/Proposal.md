@@ -653,7 +653,7 @@
 <img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
 
 <tr><td>
-<img width="768px" src="https://user-images.githubusercontent.com/90267439/146663504-7749fa95-9957-45d3-a2c1-d73c943156eb.png">
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/146856224-b1e204c4-9bc9-43fc-a21b-cf163a62dd79.png">
 <p>Shows the order tables</p>
 </td></tr>
 
@@ -669,7 +669,7 @@
 <img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
 
 <tr><td>
-<img width="768px" src="https://user-images.githubusercontent.com/90267439/146663593-96b23615-9f7e-41e1-b743-7eb0aec5696f.png">
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/146856150-734aa4c6-4e0a-4209-b76c-6f61459781f5.png">
 <p>Shows the OrderItems tables</p>
 </td></tr>
 
@@ -709,34 +709,82 @@
 </tr>
 </table>
 </td>
+</tr>
+<table>
+<tr><td>F2 - Order Confirmation Page (2021-12-10)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/checkout.php](https://ksp9-prod.herokuapp.com/Project/checkout.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/57](https://github.com/kpatel231/IT202-007/pull/57)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F2 - Order Confirmation Page</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/146853230-90ceee92-57fd-454b-959b-148931c03b96.png">
+<p>Shows order confirmation page</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F3 - User will be able to see their Purchase History ()</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/purchase_history.php](https://ksp9-prod.herokuapp.com/Project/purchase_history.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/57](https://github.com/kpatel231/IT202-007/pull/57)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F3 - User will be able to see their Purchase History</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/146855512-8e4af8f3-5d47-4938-98de-e77842e24bca.png">
+<p>Shows user purchase history</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F4 - Store Owner will be able to see all Purchase History (2021-12-10)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/purchase_history.php](https://ksp9-prod.herokuapp.com/Project/purchase_history.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/57](https://github.com/kpatel231/IT202-007/pull/57)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F4 - Store Owner will be able to see all Purchase History</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/146854670-f072daf7-36c4-4cb0-a272-331d6bdcd139.png">
+<p>Store owner sees all purchase history from different users</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
 </tr></td></tr></table>
-- [ ] (mm/dd/yyyy of completion) Order Confirmation Page
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-- [ ] (mm/dd/yyyy of completion) User will be able to see their Purchase History
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-- [ ] (mm/dd/yyyy of completion) Store Owner will be able to see all Purchase History
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
 
 - Milestone 4
 ### Intructions

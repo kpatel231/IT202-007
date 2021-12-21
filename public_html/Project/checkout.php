@@ -1,22 +1,13 @@
+
 <?php
 require(__DIR__ . "/../../partials/nav.php");
+if (!is_logged_in()) {
+    flash("You must be logged in to waste...spend your points");
+    die(header("Location: login.php"));
+}
+
 ?>
 <div class="row mt-3">
-        <div class="col-md-4 order-md-2 mb-4">
-          <h4 class="d-flex justify-content-between align-items-center mb-3">
-            <span class="text-muted">Your cart</span>
-            <span class="badge badge-secondary badge-pill"><?php echo $cartItemCount;?></span>
-          </h4>
-          <ul class="list-group mb-3">
-            <?php
-                $total = 0;
-            ?>
-           
-            <li class="list-group-item d-flex justify-content-between">
-              <span>Total (USD)</span>
-              <strong>$<?php echo number_format($total,2);?></strong>
-            </li>
-          </ul>
         </div>
         <div class="col-md-8 order-md-1">
           <h4 class="mb-3">Shipping address</h4>
@@ -99,26 +90,7 @@ require(__DIR__ . "/../../partials/nav.php");
           </form>
         </div>
       </div>
-      <?php 
-   
- 
-   
-  
- 
-
- 
-    //pre($_SESSION);
-
-               //validate_input is a custom function
-               //you can find it in helpers.php file
-               
-               $db = getDB();
-               $stmt = $db->prepare ("INSERT INTO Orders (total_price, payment_method, user_id, address) values (:tp, :payment, :uid, :address)");
-                
- 
-                
-                
-                    
+<?php                     
   
         {
             $errorMsg = [];

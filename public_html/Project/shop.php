@@ -15,6 +15,7 @@ if (!in_array($order, ["asc", "desc"])) {
     $order = "asc"; //default value, prevent sql injection
 }
 $name = se($_GET, "name", "", false);
+$category = se($_GET, "category", "", false);
 
 
 //split query into data and total
@@ -28,12 +29,13 @@ if (!empty($name)) {
     $query .= " AND name like :name";
     $params[":name"] = "%$name%";
 }
+if (!empty($category)) {
+    $query .= " AND category like :category";
+    $params[":category"] = "%$category%";
+}
 //apply column and order sort
 if (!empty($col) && !empty($order)) {
     $query .= " ORDER BY $col $order"; //be sure you trust these values, I validate via the in_array checks above
-}
-if (!empty($category)) {
-    $query .= " AND category like :category";
 }
 //paginate function
 $per_page = 5;
@@ -214,7 +216,6 @@ try {
                             <input type="hidden" name="cost" value="<?php se($item, 'cost'); ?>" />
                             <input type="hidden" name="quantity" value="1" />
 
-                            <a href="edit_item.php?id=<?php se($r, "id") ?>"> <?php se($r, "id")?>Edit</a>
                             <a href="product_detail.php?id=<?php se($r, "id") ?>"> <?php se($r, "id")?>About</a>
                         </form>
                     </div>

@@ -38,6 +38,10 @@ function mapColumn($col)
     }
     return "text";
 }
+
+  
+ 
+  // (G) NEW STARS OBJECT
 ?>
 <div class="row row-cols-1 row-cols-md-5 g-4">
         <?php foreach ($results as $item) : ?>
@@ -53,6 +57,10 @@ function mapColumn($col)
 <div class="container-fluid">
     <h1>Product</h1>
     <form method="POST">
+
+    <div class="col">
+            <div class="input-group">
+                <!-- make sure these match the in_array filter above-->
         <?php foreach ($result as $column => $value) : ?>
             <?php /* Lazily ignoring fields via hardcoded array*/ ?>
             <?php if (!in_array($column, $ignore)) : ?>
@@ -62,7 +70,7 @@ function mapColumn($col)
                 </div>
             <?php endif; ?>
         <?php endforeach; ?>
-        
+       
     </form>
 </div>
 

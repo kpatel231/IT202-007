@@ -42,11 +42,42 @@ if(isset($_POST["clear"])){
 
 $db = getDB();
 $results = [];
+//Sort and Filters
+$col = se($_GET, "col", "cost", false);
+//allowed list
+if (!in_array($col, ["cost", "stock", "name", "created", "category",])) {
+    $col = "cost"; //default value, prevent sql injection
+}
+$order = se($_GET, "order", "asc", false);
+//allowed list
+if (!in_array($order, ["asc", "desc"])) {
+    $order = "asc"; //default value, prevent sql injection
+}
+$name = se($_GET, "name", "", false);
+$category = se($_GET, "category", "", false);
 
 if (!isset($user_id)) {
     $user_id = get_user_id();
 }
-
+//split query into data and total
+$base_query = "SELECT id, name, description, cost, category, stock,FROM Products";
+$total_query = "SELECT count(1) as total FROM Cart ";
+//dynamic query
+$query = " WHERE 1=1"; //1=1 shortcut to conditionally build AND clauses
+$params = []; //define default params, add keys as needed and pass to execute
+//apply name filter
+if (!empty($name)) {
+    $query .= " AND name like :name";
+    $params[":name"] = "%$name%";
+}
+if (!empty($category)) {
+    $query .= " AND category like :category";
+    $params[":category"] = "%$category%";
+}
+//apply column and order sort
+if (!empty($col) && !empty($order)) {
+    $query .= " ORDER BY $col $order"; //be sure you trust these values, I validate via the in_array checks above
+}
 error_log("Cart");
 //$stmt = $db->prepare("SELECT i.id, name, image, quantity FROM cart inv JOIN Products i on item_id = i.id WHERE Cart.user_id = :uid and quantity > 0");
 $stmt = $db->prepare("SELECT i.id, name, image, Cart.quantity, category, Cart.unit_price, (Cart.unit_price * Cart.quantity) as subtotal FROM Cart JOIN Products i on item_id = i.id WHERE Cart.user_id = :uid and Cart.quantity > 0");
@@ -66,8 +97,24 @@ try {
 //allow triggering effects for next game session
 //store triggered items in a new table (so it persists between page loads and logouts)
 ?>
+<div class="input-group">
+                <div class="input-group-text">Sort</div>
+                <!-- make sure these match the in_array filter above-->
+                <select class="form-control" name="col" value="<?php se($col); ?>">
+                    <option value="cost">Cost</option>
+                    <option value="name">Name</option>
+
+                    <option value="total">Total</option>
+                    <option value="date_purchased">Date Purchased</option>
+                </select>
+            <div class="col">
+            <div class="input-group">
+                <input type="submit" class="btn btn-primary" value="Apply" />
+            </div>
+        </div>
 <div class="container-fluid">
    <h5>Purchase History<h5>
+   <div class="col">
    <?php global $cart_total;?>
     <div class="list-group">
         <?php if($results && count($results) > 0):?>
@@ -77,18 +124,11 @@ try {
                     <div class="col">
                        Product
                     </div>
-                    <div class="col">
-                        Quantity
                     </div>
                     <div class="col">
                         Price
                     </div>
-                    <div class="col">
-                        Subtotal
-                    </div>
-                    <div class="col">
-                        Actions
-                    </div>
+
                 </div>
             </div>
         
@@ -99,17 +139,8 @@ try {
                 <form method="POST">
                 <div class="row">
                     <div class="col">
-                        <a href="product_detail.php?id=<?php se($r, "id") ?>"> <?php se($r, "name")?></a>
+                    <a href="product_detail.php?id=<?php se($r, "id") ?>"> <?php se($r, "name")?></a>
                         <!--<?php echo $r["name"];?> -->
-                    </div>
-                    <div class="col">
-                        
-
-                        <input type="number" min="0" name="quantity" value="<?php echo $r["quantity"];?>"/>
-                        <input type="hidden" name="cartId" value="<?php echo $r["id"];?>"/>
-
-
-                </div>
                 <div class="col">
                     <div class="col">
                         <?php echo $r["unit_price"];?>
@@ -119,23 +150,14 @@ try {
                     $cart_total= $cart_total+$subtotal;
                     $r["subtotal"]; ?>
                     </div>
-                    <div class="col">
-                        <!-- form split was on purpose-->
-                        <input type="submit" class="btn btn-outline-dark" name="update" value="Quantity Update"/>
-                        </form>
-                        <form method="POST">
-                            <input type="hidden" name="cartId" value="<?php echo $r["id"];?>"/>
-                            <input type="submit" class="btn btn-outline-dark" name="delete" value="Remove"/>
-                        </form>
                     </div>
                 </div>
             </div>
             <?php endforeach;?>
             <div class = "card-footer">
-                <h2>Cart Summary</h2>
                 <div class="list-group-item">
                     <form method = "POST">
-                        <h5>Cart Total </h5>
+                        <h5>Total </h5>
                         <?php echo $cart_total?>
                         <div class = "col">
 
@@ -143,7 +165,6 @@ try {
                 
                         <div class = "row">
                                 <input type="hidden" name="cartId" value="<?php echo $r["id"];?>"/>
-                                <input type="submit" class="btn btn-outline-dark" name="clear" value="Clear Cart"/>
                             </div>
                         </div>
                     </form>
