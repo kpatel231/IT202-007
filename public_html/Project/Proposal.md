@@ -787,6 +787,231 @@
 </tr></td></tr></table>
 
 - Milestone 4
+
+<table>
+<tr><td>Milestone 4</td></tr><tr><td>
+<table>
+<tr><td>F1 - User can set their profile to be public or private (will need another column in Users table) (2021-12-21)</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/profile.php](https://ksp9-prod.herokuapp.com/Project/profile.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/58](https://github.com/kpatel231/IT202-007/pull/58)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F1 - Users can set their profile to be public or private</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/147019239-d2100b31-f2d0-4ef5-9d2d-5919acd42aae.png">
+<p>Shows when the user profile is set to public.</p>
+</td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/147019490-3310d12d-1827-474b-a374-6cd725566aaa.png">
+<p>Showing when the user set their account to private.</p>
+</td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/147019664-b4c48b0e-f1ee-46ab-bbdd-a047b762ab9c.png">
+<p>Showing users table with the new visibility column.</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F1 - If public, hide email address from other users</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/147019239-d2100b31-f2d0-4ef5-9d2d-5919acd42aae.png">
+<p>Users profile is public which hide email address for other users.</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F2 - User will be able to rate a product they purchased (2021-12-21)</td></tr>
+<tr><td>Status: incomplete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/product_detail.php](https://ksp9-prod.herokuapp.com/Project/product_detail.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/58](https://github.com/kpatel231/IT202-007/pull/58)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F2 - Create table called Ratings (id, product_id, user_id, rating, comment, created)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/147021079-b216c6bf-94aa-4d67-a5d8-d9ec68f03cdf.png">
+<p>Showing table for ratings</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td>
+<table>
+<tr><td>F2 - 1-5 rating</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/ff0000/000000?text=incomplete"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p>Wasn't able to complete any other sub-bullets for feature 2 milestone 4 because I couldn't figure out how to implement them with the shop</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F3 - User’s Purchase History Changes ()</td></tr>
+<tr><td>Status: incomplete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/purchase_history.php](https://ksp9-prod.herokuapp.com/Project/purchase_history.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/58](https://github.com/kpatel231/IT202-007/pull/58)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F3 - Sort by total, date purchased, etc</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/ff0000/000000?text=incomplete"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/147021981-ab39f6da-09f6-4daf-a45e-4b2078661ba7.png">
+<p>Managed to create the options button to sort for total and date purchased but couldn't figure how to make them function. In addition, I wasn't able to complete any for milestone 4 feature 3 sub-bullets.</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F4 - Store Owner Purchase History Changes (2021-12-21)</td></tr>
+<tr><td>Status: incomplete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/purchase_history.php](https://ksp9-prod.herokuapp.com/Project/purchase_history.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/58](https://github.com/kpatel231/IT202-007/pull/58)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F4 - Sort by total, date purchased, etc</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/ff0000/000000?text=incomplete"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/147021981-ab39f6da-09f6-4daf-a45e-4b2078661ba7.png">
+<p>Managed to create the options button to sort for total and date purchased but couldn't figure how to make them function. In addition, I wasn't able to complete any for milestone 4 feature 4 sub-bullets.</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F5 - Add pagination to Shop Page (and any other product lists not yet mentioned) ()</td></tr>
+<tr><td>Status: complete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/shop.php](https://ksp9-prod.herokuapp.com/Project/shop.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/58](https://github.com/kpatel231/IT202-007/pull/58)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F5 - Add pagination to Shop Page (and any other product lists not yet mentioned)</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=completed"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/147023066-59b03a07-188a-4b5c-8104-8cda1c1db31a.png">
+<p>Showing that I have pagination on the shop page of the website</p>
+</td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/147023299-87c10876-2a32-414a-9d37-03a7214c5325.png">
+<p>Showing code for the pagination on the shop page of the website</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F6 - Store Owner will be able to see all products out of stock ()</td></tr>
+<tr><td>Status: incomplete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/product_detail.php](https://ksp9-prod.herokuapp.com/Project/product_detail.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/58](https://github.com/kpatel231/IT202-007/pull/58)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F6 - This will be added as a filter to their product list page from Milestone 2</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/ff0000/000000?text=incomplete"></td></tr>
+
+<tr><td>
+<img width="768px" src="">
+<p>Wasn't able to complete any milestone 4 feature 6 sub-bullets because I couldn't figure out how to implement them with the shop</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<table>
+<tr><td>F7 - User can sort products by average rating on the Shop Page ()</td></tr>
+<tr><td>Status: incomplete</td></tr>
+<tr><td>Links:<p>
+
+ [https://ksp9-prod.herokuapp.com/Project/shop.php](https://ksp9-prod.herokuapp.com/Project/shop.php)</p></td></tr>
+<tr><td>PRs:<p>
+
+ [https://github.com/kpatel231/IT202-007/pull/58](https://github.com/kpatel231/IT202-007/pull/58)</p></td></tr>
+<tr><td>
+<table>
+<tr><td>F7 - Hint: may want to add an “average rating” field to the Products table and update this value any time a new rating is given for the product</td></tr>
+<tr><td>Status: 
+<img width="100" height="20" src="https://via.placeholder.com/400x120/ff0000/000000?text=incomplete"></td></tr>
+
+<tr><td>
+<img width="768px" src="https://user-images.githubusercontent.com/90267439/147023932-83d98962-3a77-4f9a-bed4-f6de03f0b3fd.png">
+<p>Showing I was able to create the option for average rating but couldn't figure out how to make it function with the shop</p>
+</td></tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr></td></tr></table>
 ### Intructions
 #### Don't delete this
 1. Pick one project type

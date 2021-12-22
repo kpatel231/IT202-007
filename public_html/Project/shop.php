@@ -169,6 +169,7 @@ try {
                     <option value="name">Name</option>
                     <option value="created">Created</option>
                     <option value="category">Category</option>
+                    <option value="category">Average Rating</option>
                 </select>
                 <script>
                     //quick fix to ensure proper value is selected since

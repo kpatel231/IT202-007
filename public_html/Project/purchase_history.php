@@ -92,18 +92,33 @@ try {
     error_log(var_export($e, true));
     flash("<pre>" . var_export($e, true) . "</pre>");
 }
-//TODO
-//display inventory output
-//allow triggering effects for next game session
-//store triggered items in a new table (so it persists between page loads and logouts)
+
+//safety checks to ensure "valid" data
+if (!isset($total_pages)) {
+    $total_pages = 1;
+}
+if (!isset($page)) {
+    $page = 1;
+}
 ?>
+<nav aria-label="Generic Pagination">
+    <ul class="pagination">
+        <li class="page-item <?php echo ($page - 1) < 1 ? "disabled" : ""; ?>">
+            <a class="page-link" href="?<?php se(persistQueryString($page - 1)); ?>" tabindex="-1">Previous</a>
+        </li>
+        <?php for ($i = 0; $i < $total_pages; $i++) : ?>
+            <li class="page-item <?php echo ($page - 1) == $i ? "active" : ""; ?>"><a class="page-link" href="?<?php se(persistQueryString($i + 1)); ?>"><?php echo ($i + 1); ?></a></li>
+        <?php endfor; ?>
+        <li class="page-item <?php echo ($page) >= $total_pages ? "disabled" : ""; ?>">
+            <a class="page-link" href="?<?php se(persistQueryString($page + 1)); ?>">Next</a>
+        </li>
+    </ul>
+</nav>
+
 <div class="input-group">
                 <div class="input-group-text">Sort</div>
                 <!-- make sure these match the in_array filter above-->
                 <select class="form-control" name="col" value="<?php se($col); ?>">
-                    <option value="cost">Cost</option>
-                    <option value="name">Name</option>
-
                     <option value="total">Total</option>
                     <option value="date_purchased">Date Purchased</option>
                 </select>
